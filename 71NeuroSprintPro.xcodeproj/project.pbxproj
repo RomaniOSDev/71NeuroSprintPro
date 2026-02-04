@@ -3,33 +3,73 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		74587D972F33DC9E00356770 /* CognitiveEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D732F33DC9E00356770 /* CognitiveEngine.swift */; };
+		74587D982F33DC9E00356770 /* ProgressTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D742F33DC9E00356770 /* ProgressTracker.swift */; };
+		74587D992F33DC9E00356770 /* WorkoutGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D752F33DC9E00356770 /* WorkoutGenerator.swift */; };
+		74587D9A2F33DC9E00356770 /* CognitiveMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D772F33DC9E00356770 /* CognitiveMetrics.swift */; };
+		74587D9B2F33DC9E00356770 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D782F33DC9E00356770 /* Progress.swift */; };
+		74587D9C2F33DC9E00356770 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D792F33DC9E00356770 /* Workout.swift */; };
+		74587D9D2F33DC9E00356770 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D7B2F33DC9E00356770 /* AppViewModel.swift */; };
+		74587D9E2F33DC9E00356770 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D7D2F33DC9E00356770 /* CheckLink.swift */; };
+		74587D9F2F33DC9E00356770 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D7E2F33DC9E00356770 /* InternetViewController.swift */; };
+		74587DA02F33DC9E00356770 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D7F2F33DC9E00356770 /* LoaderViewController.swift */; };
+		74587DA12F33DC9E00356770 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D812F33DC9E00356770 /* AchievementsView.swift */; };
+		74587DA22F33DC9E00356770 /* AchievementUnlockedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D822F33DC9E00356770 /* AchievementUnlockedView.swift */; };
+		74587DA32F33DC9E00356770 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D832F33DC9E00356770 /* ContentView.swift */; };
+		74587DA42F33DC9E00356770 /* CreateWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D842F33DC9E00356770 /* CreateWorkoutView.swift */; };
+		74587DA52F33DC9E00356770 /* NeuroTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D852F33DC9E00356770 /* NeuroTestView.swift */; };
+		74587DA62F33DC9E00356770 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D862F33DC9E00356770 /* OnboardingView.swift */; };
+		74587DA72F33DC9E00356770 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D872F33DC9E00356770 /* ProgressView.swift */; };
+		74587DA82F33DC9E00356770 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D882F33DC9E00356770 /* SettingsView.swift */; };
+		74587DA92F33DC9E00356770 /* SprintWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D892F33DC9E00356770 /* SprintWorkoutView.swift */; };
+		74587DAA2F33DC9E00356770 /* WorkoutGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D8A2F33DC9E00356770 /* WorkoutGeneratorView.swift */; };
+		74587DAB2F33DC9E00356770 /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D8B2F33DC9E00356770 /* WorkoutListView.swift */; };
+		74587DAC2F33DC9E00356770 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D8D2F33DC9E00356770 /* AppDelegate.swift */; };
+		74587DAD2F33DC9E00356770 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D942F33DC9E00356770 /* SceneDelegate.swift */; };
+		74587DAE2F33DC9E00356770 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D952F33DC9E00356770 /* ViewController.swift */; };
+		74587DAF2F33DC9E00356770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74587D8E2F33DC9E00356770 /* Assets.xcassets */; };
+		74587DB12F33DC9E00356770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74587D912F33DC9E00356770 /* LaunchScreen.storyboard */; };
+		74587DB22F33DC9E00356770 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74587D932F33DC9E00356770 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		293DF087612E6F72392DAD13 /* Pods_71NeuroSprintPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_71NeuroSprintPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F50FA57284A11F682018DD /* Pods-71NeuroSprintPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-71NeuroSprintPro.release.xcconfig"; path = "Target Support Files/Pods-71NeuroSprintPro/Pods-71NeuroSprintPro.release.xcconfig"; sourceTree = "<group>"; };
 		741939042F275D3D0004F61F /* 71NeuroSprintPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 71NeuroSprintPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74587D732F33DC9E00356770 /* CognitiveEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitiveEngine.swift; sourceTree = "<group>"; };
+		74587D742F33DC9E00356770 /* ProgressTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTracker.swift; sourceTree = "<group>"; };
+		74587D752F33DC9E00356770 /* WorkoutGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutGenerator.swift; sourceTree = "<group>"; };
+		74587D772F33DC9E00356770 /* CognitiveMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitiveMetrics.swift; sourceTree = "<group>"; };
+		74587D782F33DC9E00356770 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		74587D792F33DC9E00356770 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		74587D7B2F33DC9E00356770 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		74587D7D2F33DC9E00356770 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		74587D7E2F33DC9E00356770 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		74587D7F2F33DC9E00356770 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		74587D812F33DC9E00356770 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		74587D822F33DC9E00356770 /* AchievementUnlockedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementUnlockedView.swift; sourceTree = "<group>"; };
+		74587D832F33DC9E00356770 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74587D842F33DC9E00356770 /* CreateWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkoutView.swift; sourceTree = "<group>"; };
+		74587D852F33DC9E00356770 /* NeuroTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroTestView.swift; sourceTree = "<group>"; };
+		74587D862F33DC9E00356770 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		74587D872F33DC9E00356770 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		74587D882F33DC9E00356770 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74587D892F33DC9E00356770 /* SprintWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintWorkoutView.swift; sourceTree = "<group>"; };
+		74587D8A2F33DC9E00356770 /* WorkoutGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutGeneratorView.swift; sourceTree = "<group>"; };
+		74587D8B2F33DC9E00356770 /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
+		74587D8D2F33DC9E00356770 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74587D8E2F33DC9E00356770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74587D8F2F33DC9E00356770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74587D902F33DC9E00356770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74587D922F33DC9E00356770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74587D942F33DC9E00356770 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74587D952F33DC9E00356770 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF014F57C7FB5BDF396DCA85 /* Pods-71NeuroSprintPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-71NeuroSprintPro.debug.xcconfig"; path = "Target Support Files/Pods-71NeuroSprintPro/Pods-71NeuroSprintPro.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		741939162F275D3E0004F61F /* Exceptions for "71NeuroSprintPro" folder in "71NeuroSprintPro" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 741939032F275D3D0004F61F /* 71NeuroSprintPro */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		741939062F275D3D0004F61F /* 71NeuroSprintPro */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				741939162F275D3E0004F61F /* Exceptions for "71NeuroSprintPro" folder in "71NeuroSprintPro" target */,
-			);
-			path = 71NeuroSprintPro;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		741939012F275D3D0004F61F /* Frameworks */ = {
@@ -42,11 +82,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01E92C6E2CE200C87D4F21F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				293DF087612E6F72392DAD13 /* Pods_71NeuroSprintPro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		741938FB2F275D3D0004F61F = {
 			isa = PBXGroup;
 			children = (
-				741939062F275D3D0004F61F /* 71NeuroSprintPro */,
+				74587D962F33DC9E00356770 /* 71NeuroSprintPro */,
 				741939052F275D3D0004F61F /* Products */,
+				C74D743F21DB7F307486AA86 /* Pods */,
+				01E92C6E2CE200C87D4F21F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +108,90 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		74587D762F33DC9E00356770 /* Engines */ = {
+			isa = PBXGroup;
+			children = (
+				74587D732F33DC9E00356770 /* CognitiveEngine.swift */,
+				74587D742F33DC9E00356770 /* ProgressTracker.swift */,
+				74587D752F33DC9E00356770 /* WorkoutGenerator.swift */,
+			);
+			path = Engines;
+			sourceTree = "<group>";
+		};
+		74587D7A2F33DC9E00356770 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74587D772F33DC9E00356770 /* CognitiveMetrics.swift */,
+				74587D782F33DC9E00356770 /* Progress.swift */,
+				74587D792F33DC9E00356770 /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74587D7C2F33DC9E00356770 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74587D7B2F33DC9E00356770 /* AppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74587D802F33DC9E00356770 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				74587D7D2F33DC9E00356770 /* CheckLink.swift */,
+				74587D7E2F33DC9E00356770 /* InternetViewController.swift */,
+				74587D7F2F33DC9E00356770 /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		74587D8C2F33DC9E00356770 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74587D802F33DC9E00356770 /* LoadingView */,
+				74587D812F33DC9E00356770 /* AchievementsView.swift */,
+				74587D822F33DC9E00356770 /* AchievementUnlockedView.swift */,
+				74587D832F33DC9E00356770 /* ContentView.swift */,
+				74587D842F33DC9E00356770 /* CreateWorkoutView.swift */,
+				74587D852F33DC9E00356770 /* NeuroTestView.swift */,
+				74587D862F33DC9E00356770 /* OnboardingView.swift */,
+				74587D872F33DC9E00356770 /* ProgressView.swift */,
+				74587D882F33DC9E00356770 /* SettingsView.swift */,
+				74587D892F33DC9E00356770 /* SprintWorkoutView.swift */,
+				74587D8A2F33DC9E00356770 /* WorkoutGeneratorView.swift */,
+				74587D8B2F33DC9E00356770 /* WorkoutListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74587D962F33DC9E00356770 /* 71NeuroSprintPro */ = {
+			isa = PBXGroup;
+			children = (
+				74587D762F33DC9E00356770 /* Engines */,
+				74587D7A2F33DC9E00356770 /* Models */,
+				74587D7C2F33DC9E00356770 /* ViewModels */,
+				74587D8C2F33DC9E00356770 /* Views */,
+				74587D8D2F33DC9E00356770 /* AppDelegate.swift */,
+				74587D8E2F33DC9E00356770 /* Assets.xcassets */,
+				74587D8F2F33DC9E00356770 /* Info.plist */,
+				74587D912F33DC9E00356770 /* LaunchScreen.storyboard */,
+				74587D932F33DC9E00356770 /* Main.storyboard */,
+				74587D942F33DC9E00356770 /* SceneDelegate.swift */,
+				74587D952F33DC9E00356770 /* ViewController.swift */,
+			);
+			path = 71NeuroSprintPro;
+			sourceTree = "<group>";
+		};
+		C74D743F21DB7F307486AA86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF014F57C7FB5BDF396DCA85 /* Pods-71NeuroSprintPro.debug.xcconfig */,
+				66F50FA57284A11F682018DD /* Pods-71NeuroSprintPro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 741939172F275D3E0004F61F /* Build configuration list for PBXNativeTarget "71NeuroSprintPro" */;
 			buildPhases = (
+				99ECC6A3314F79CF7CE36782 /* [CP] Check Pods Manifest.lock */,
 				741939002F275D3D0004F61F /* Sources */,
 				741939012F275D3D0004F61F /* Frameworks */,
 				741939022F275D3D0004F61F /* Resources */,
@@ -73,12 +208,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				741939062F275D3D0004F61F /* 71NeuroSprintPro */,
-			);
 			name = 71NeuroSprintPro;
-			packageProductDependencies = (
-			);
 			productName = 71NeuroSprintPro;
 			productReference = 741939042F275D3D0004F61F /* 71NeuroSprintPro.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +229,7 @@
 				};
 			};
 			buildConfigurationList = 741938FF2F275D3D0004F61F /* Build configuration list for PBXProject "71NeuroSprintPro" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +237,6 @@
 				Base,
 			);
 			mainGroup = 741938FB2F275D3D0004F61F;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 741939052F275D3D0004F61F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +251,96 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74587DAF2F33DC9E00356770 /* Assets.xcassets in Resources */,
+				74587DB12F33DC9E00356770 /* LaunchScreen.storyboard in Resources */,
+				74587DB22F33DC9E00356770 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99ECC6A3314F79CF7CE36782 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-71NeuroSprintPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		741939002F275D3D0004F61F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74587D972F33DC9E00356770 /* CognitiveEngine.swift in Sources */,
+				74587D982F33DC9E00356770 /* ProgressTracker.swift in Sources */,
+				74587D992F33DC9E00356770 /* WorkoutGenerator.swift in Sources */,
+				74587D9A2F33DC9E00356770 /* CognitiveMetrics.swift in Sources */,
+				74587D9B2F33DC9E00356770 /* Progress.swift in Sources */,
+				74587D9C2F33DC9E00356770 /* Workout.swift in Sources */,
+				74587D9D2F33DC9E00356770 /* AppViewModel.swift in Sources */,
+				74587D9E2F33DC9E00356770 /* CheckLink.swift in Sources */,
+				74587D9F2F33DC9E00356770 /* InternetViewController.swift in Sources */,
+				74587DA02F33DC9E00356770 /* LoaderViewController.swift in Sources */,
+				74587DA12F33DC9E00356770 /* AchievementsView.swift in Sources */,
+				74587DA22F33DC9E00356770 /* AchievementUnlockedView.swift in Sources */,
+				74587DA32F33DC9E00356770 /* ContentView.swift in Sources */,
+				74587DA42F33DC9E00356770 /* CreateWorkoutView.swift in Sources */,
+				74587DA52F33DC9E00356770 /* NeuroTestView.swift in Sources */,
+				74587DA62F33DC9E00356770 /* OnboardingView.swift in Sources */,
+				74587DA72F33DC9E00356770 /* ProgressView.swift in Sources */,
+				74587DA82F33DC9E00356770 /* SettingsView.swift in Sources */,
+				74587DA92F33DC9E00356770 /* SprintWorkoutView.swift in Sources */,
+				74587DAA2F33DC9E00356770 /* WorkoutGeneratorView.swift in Sources */,
+				74587DAB2F33DC9E00356770 /* WorkoutListView.swift in Sources */,
+				74587DAC2F33DC9E00356770 /* AppDelegate.swift in Sources */,
+				74587DAD2F33DC9E00356770 /* SceneDelegate.swift in Sources */,
+				74587DAE2F33DC9E00356770 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		74587D912F33DC9E00356770 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74587D902F33DC9E00356770 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74587D932F33DC9E00356770 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74587D922F33DC9E00356770 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		741939182F275D3E0004F61F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF014F57C7FB5BDF396DCA85 /* Pods-71NeuroSprintPro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +348,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 71NeuroSprintPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Benan SprintPro";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-1NeuroSprintPro";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akb.b5n2nspr9ntpr8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		741939192F275D3E0004F61F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F50FA57284A11F682018DD /* Pods-71NeuroSprintPro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +386,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 71NeuroSprintPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Benan SprintPro";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-1NeuroSprintPro";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akb.b5n2nspr9ntpr8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

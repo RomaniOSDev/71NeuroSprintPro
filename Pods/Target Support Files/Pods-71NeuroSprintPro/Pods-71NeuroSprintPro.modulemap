@@ -1,0 +1,6 @@
+framework module Pods_71NeuroSprintPro {
+  umbrella header "Pods-71NeuroSprintPro-umbrella.h"
+
+  export *
+  module * { export * }
+}
