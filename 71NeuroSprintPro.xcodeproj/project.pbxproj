@@ -14,9 +14,6 @@
 		74587D9B2F33DC9E00356770 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D782F33DC9E00356770 /* Progress.swift */; };
 		74587D9C2F33DC9E00356770 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D792F33DC9E00356770 /* Workout.swift */; };
 		74587D9D2F33DC9E00356770 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D7B2F33DC9E00356770 /* AppViewModel.swift */; };
-		74587D9E2F33DC9E00356770 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D7D2F33DC9E00356770 /* CheckLink.swift */; };
-		74587D9F2F33DC9E00356770 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D7E2F33DC9E00356770 /* InternetViewController.swift */; };
-		74587DA02F33DC9E00356770 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D7F2F33DC9E00356770 /* LoaderViewController.swift */; };
 		74587DA12F33DC9E00356770 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D812F33DC9E00356770 /* AchievementsView.swift */; };
 		74587DA22F33DC9E00356770 /* AchievementUnlockedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D822F33DC9E00356770 /* AchievementUnlockedView.swift */; };
 		74587DA32F33DC9E00356770 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74587D832F33DC9E00356770 /* ContentView.swift */; };
@@ -47,9 +44,6 @@
 		74587D782F33DC9E00356770 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
 		74587D792F33DC9E00356770 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		74587D7B2F33DC9E00356770 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
-		74587D7D2F33DC9E00356770 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
-		74587D7E2F33DC9E00356770 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
-		74587D7F2F33DC9E00356770 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
 		74587D812F33DC9E00356770 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
 		74587D822F33DC9E00356770 /* AchievementUnlockedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementUnlockedView.swift; sourceTree = "<group>"; };
 		74587D832F33DC9E00356770 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -136,20 +130,9 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		74587D802F33DC9E00356770 /* LoadingView */ = {
-			isa = PBXGroup;
-			children = (
-				74587D7D2F33DC9E00356770 /* CheckLink.swift */,
-				74587D7E2F33DC9E00356770 /* InternetViewController.swift */,
-				74587D7F2F33DC9E00356770 /* LoaderViewController.swift */,
-			);
-			path = LoadingView;
-			sourceTree = "<group>";
-		};
 		74587D8C2F33DC9E00356770 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				74587D802F33DC9E00356770 /* LoadingView */,
 				74587D812F33DC9E00356770 /* AchievementsView.swift */,
 				74587D822F33DC9E00356770 /* AchievementUnlockedView.swift */,
 				74587D832F33DC9E00356770 /* ContentView.swift */,
@@ -296,9 +279,6 @@
 				74587D9B2F33DC9E00356770 /* Progress.swift in Sources */,
 				74587D9C2F33DC9E00356770 /* Workout.swift in Sources */,
 				74587D9D2F33DC9E00356770 /* AppViewModel.swift in Sources */,
-				74587D9E2F33DC9E00356770 /* CheckLink.swift in Sources */,
-				74587D9F2F33DC9E00356770 /* InternetViewController.swift in Sources */,
-				74587DA02F33DC9E00356770 /* LoaderViewController.swift in Sources */,
 				74587DA12F33DC9E00356770 /* AchievementsView.swift in Sources */,
 				74587DA22F33DC9E00356770 /* AchievementUnlockedView.swift in Sources */,
 				74587DA32F33DC9E00356770 /* ContentView.swift in Sources */,
@@ -345,10 +325,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 71NeuroSprintPro/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Benan SprintPro";
+				INFOPLIST_KEY_CFBundleDisplayName = "Benjavel SprintPro";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -383,10 +363,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 71NeuroSprintPro/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Benan SprintPro";
+				INFOPLIST_KEY_CFBundleDisplayName = "Benjavel SprintPro";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
